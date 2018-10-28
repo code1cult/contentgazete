@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'The Gazete',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -26,5 +26,12 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `pjb3ehbqdwuo`,
+        accessToken: `936f4b8ce8b774d3f0cbcc30624d36fb7a67c4b3fd505ebf85de1664fee5d4c7`,
+      },
+    },
   ],
 }
