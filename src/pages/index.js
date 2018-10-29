@@ -3,32 +3,23 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 
-const IndexPage = ({ data }) => {
+const IndexPage = () => {
   debugger
   return (
 <Layout>
-    <h1>{data.contentfulBlogPost.title}</h1>
-    <p>{data.contentfulBlogPost.description.description}</p>
     
-   
-    <Link to="/page-2/">Go to page 2</Link>
+    <Link to="/DebtConsolidationLoanCalculator/">Debt Consolidation Loan Calculator</Link>
+    <Link to="/DebtCollectionAgenciesandYourRights/">Debt Collection Agencies and Your Rights</Link>
+    <Link to="/CreditSolutions/">Credit Solutions</Link>
+    <Link to="/CreditCounseling/">Credit Counseling</Link>
+    <Link to="/UnderstandingCreditReports/">Understanding Credit Reports</Link>
+    <Link to="/CreditScoreFluctuations/">Credit Score Fluctuations</Link>
+    
+    
+
   </Layout>
   )
   
 }
 export default IndexPage
 
-export const query = graphql`
-  query PageQuery {
-    
-      contentfulBlogPost {
-        title
-        description {
-          id
-          description
-        }
-        
-      }
-    
-  }
-`
