@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import AdSense from 'react-adsense'
 
  
 
@@ -10,7 +11,11 @@ const Header = ({ siteTitle }) => (
       marginBottom: '1.45rem',
     }}
   >
-
+ <AdSense.Google
+          client="ca-pub-5067029621778249"
+          slot="5153910610"
+          format="auto"
+        />
     <div
       style={{
         margin: '0 auto',
