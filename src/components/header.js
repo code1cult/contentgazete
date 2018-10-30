@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import AdSense from 'react-adsense'
-// import { YMInitializer } from 'react-yandex-metrika';
+import { YMInitializer } from 'react-yandex-metrika';
 
-// import ReactGA from 'react-ga';
-// ReactGA.initialize('UA-128204944-2');
-// ReactGA.pageview(window.location.pathname + window.location.search);
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-128204944-2');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 
  
@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
     }}
   >
 
- {/* <YMInitializer accounts={[50936816]} /> */}
+ <YMInitializer accounts={[50936816]} />
  <AdSense.Google
           client="ca-pub-5067029621778249"
           slot="5153910610"
