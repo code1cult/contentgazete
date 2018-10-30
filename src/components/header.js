@@ -3,9 +3,9 @@ import { Link } from 'gatsby'
 import AdSense from 'react-adsense'
 import { YMInitializer } from 'react-yandex-metrika';
 
-import ReactGA from 'react-ga';
-ReactGA.initialize('UA-128204944-2');
-ReactGA.pageview(window.location.pathname + window.location.search);
+// import ReactGA from 'react-ga';
+// ReactGA.initialize('UA-128204944-2');
+// ReactGA.pageview(window.location.pathname + window.location.search);
 
 
  
