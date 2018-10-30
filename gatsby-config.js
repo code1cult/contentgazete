@@ -45,6 +45,7 @@ module.exports = {
         trackingId: '50936816',
         webvisor: true,
         trackHash: true,
+        version: 2
       },
     },
     'gatsby-plugin-offline',
