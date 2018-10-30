@@ -25,22 +25,6 @@ module.exports = {
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: "UA-128204944-2",
-    //     head: true,
-    //   },
-    // },
-    // {
-    //   resolve: `gatsby-plugin-yandex-metrika`,
-    //   options: {
-    //     trackingId: '50936816',
-    //     webvisor: true,
-    //     trackHash: true,
-    //     version: 2
-    //   },
-    // },
     'gatsby-plugin-offline',
     {
       resolve: `gatsby-source-contentful`,
